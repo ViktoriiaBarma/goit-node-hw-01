@@ -34,7 +34,7 @@ async function removeContact(contactId) {
     
     await writeContacts(contacts);
     
-    return [result]
+    return result
 
 }
 
